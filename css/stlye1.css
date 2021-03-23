@@ -22,6 +22,10 @@ body {
   top: 160px;
   left: 250px;
 }
+.textinput{
+    padding-left: 10px
+}
+
 .textinput {
   font-size: 20px;
   min-width: 300px;
