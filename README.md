@@ -1,2 +1,0 @@
-# todolist
-CREATED BY GITHUB
