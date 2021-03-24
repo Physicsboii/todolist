@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(117deg, #00b4db 0%, #c89898 100.26%);
+  background: linear-gradient(117deg, #12c2e9 0%, #c471ed 70%,#f64f59 100%);
   overscroll-behavior: none;
   background-size: contain;
   color: white;
@@ -60,6 +60,7 @@ h2 {
   min-width: 450px;
   margin: 10px;
   padding: 4px;
+  color: black;
   background: #0a2d46;
   border-radius: 5px;
   text-decoration: none;
