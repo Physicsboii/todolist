@@ -80,5 +80,9 @@ h2:hover {
         min-width: 350px; 
     
     }
+    body{
+        min-height: 1080;
+    }
+
 
 }
