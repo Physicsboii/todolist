@@ -16,14 +16,18 @@ textInput.addEventListener("keyup", function(event) {
 });
 
 function addtext(e) {
-    i  = i+1
-    e.preventDefault();
-    console.log("add")
-    const newTodo = document.createElement("h2");
-    newTodo.classList.add('item'+i);
-    newTodo.innerText = textInput.value;
-    list.appendChild(newTodo);
-    textInput.value = "";
-
+    
+    if (textInput && textInput.value) {
+        i  = i+1
+        e.preventDefault();
+        console.log("add")
+        const newTodo = document.createElement("h2");
+        newTodo.classList.add('item'+i);
+        newTodo.innerText = textInput.value;
+        list.appendChild(newTodo);
+        textInput.value = "";
+    }
+    else{
+        alert("PLEASE TYPE A TODO AND ADD")
+    }
 }
-
