@@ -78,10 +78,10 @@ h2:hover {
 }
 
 h3{
-    color: rgba(255, 255,255 ,0.2);
+    color: rgba(255, 255,255 ,0.3);
     font-size: 20px;
     position: absolute;
-    bottom: 0px;
+    top: 100%;
 }
 
 @media (max-width: 50rem){
@@ -94,11 +94,6 @@ h3{
         min-height: 1080;
     }
     
-    h3{
-    
-    position: absolute;
-    bottom: -10px;
-}
-
+   
 
 }
