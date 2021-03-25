@@ -56,16 +56,19 @@ header {
   color: #f7fffe;
 }
 
+
 h2 {
   min-width: 450px;
   margin: 10px;
   padding: 4px;
-  color: black;
-  background: #0a2d46;
+  background: white;
   border-radius: 5px;
+  color: black;
   text-decoration: none;
   transition: all 200ms ease-in-out;
   z-index: 3;
+  overflow-x: hidden;
+  text-align: justify;
 }
 
 h2:hover {
