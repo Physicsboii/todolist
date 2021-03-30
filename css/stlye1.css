@@ -141,15 +141,23 @@ h3{
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
 }
-
 @media (max-width: 50rem) {
   h2 {
-    min-width: 350px;
+    min-width: 230px;
+    font-size: 15px;
+    
   }
 
   body {
     min-height: 1080;
     
   }
-
+  .check,.delete{
+      font-size: 20px;
+  }
+  .textinput{
+      min-width: 290px;
+  }
+  
 }
+
